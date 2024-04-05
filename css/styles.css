@@ -1,0 +1,30 @@
+body {
+    font-family:Arial;
+    background-color: white; 
+    line-height: 130%;
+    color: black;
+}
+
+
+#obal {
+    width: 80%;
+    margin: 10px auto;
+}
+
+header {
+font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: red; 
+    color: white;
+}
+
+h3 {
+    color: blue;  
+}

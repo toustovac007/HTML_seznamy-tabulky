@@ -2,98 +2,168 @@
 <html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>seznamy+tabulky</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>seznamy+tabulky</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div id="obal">
-        <header><h1>Seznamy a tabulky</h1></header>
+  <div id="obal">
+    <header>
+      <h1>Seznamy a tabulky</h1>
+    </header>
 
-        <main>
-            <h2>Tvorba seznamů</h2>
+    <main>
+      <h2>Tvorba seznamů</h2>
 
-            <h3>USPOŘÁDANÝ SEZNAM (ORDERED LIST)</h3>
+      <h3>USPOŘÁDANÝ SEZNAM (ORDERED LIST)</h3>
 
-            <ol>
-                <li>Google Chrome</li>
-                <li>Internet Explorer</li>
-                <li>Mozila Firefox</li>
-            </ol>
-
-
-            <h3>NEUSPOŘÁDANÝ SEZNAM (UNORDERED LIST)</h3>
-
-            <ol>
-                <li>IP adresy (např. IPv4: 192.168.23.1, IPv6: )</li>
-                <li>DNS adresy (např. strojka.opava.cz)</li>
-                <li>URL adresy (např. https://www.w3schools.com/tags/tag_ol.asp)</li>
-            </ol>
-
-            <h3>VNOŘENÝ SEZNAM</h3>
-
-<ul>
-  <li>Hardware</li>
-  <ol type="I">
-    <li>Základní jednotka</li>
-    <ol type="a">
-      <li>Procesor (CPU)</li>
-      <li>Pevný disk (HDD)</li>
-      <li>Operační paměť (RAM)</li>
-    </ol>
-  <li>Vstupní zařízení</li>
-  <ol type="a">
-    <li>Klávesnice</li>
-    <li>Myš</li>
-  </ol>
-  <li>Výstupní zařízení</li>
-  <ol type="a">
-    <li>Monitor</li>
-    <li>Tiskárna</li>
-  </ol>
-</ol>
-<li>Software</li>
-<ol type="I">
-  <li>Základní programové vybavení</li>
-  <ol type="a">
-    <li>Operační systém</li>
-    <li>Ovladač</li>
-    <li>Firmware</li>
-  </ol>
-<li>Aplikace</li>
-<ol type="a">
-  <li>Textový editor</li>
-  <li>Prohlížeč</li>
-  <li>Antivirový program</li>
-</ol>
-</ol>
-</ul>
-
-<h3>POPISNÝ SEZNAM (DESCRIPTION LIST)</h3>
-<dl>
-<h4><dt>Internet Society (ISOC)</dt></h4>
-
-<dd>Mezinárodní organizace pro globální koordinaci a kooperaci v rámci internetu.</dd>
-
-<h4><dt>World Wide Web Consortium (W3C)</dt></h4>
-
-<dd>Mezinárodní konsorcium, jehož členové společně s veřejností vyvíjejí webové standardy pro službu WWW.</dd>
-
-<h4><dt>Internet Asigned Numbers Autority (IANA)</dt></h4>
-
-<dd>Organizace, která dohlíží celosvětově na přidělování IP adres, správu kořenových zón DNS, definování typů médií pro MIME a další náležitosti internetových protokolů.</dd>
-</dl>
-
-<h2>Tvorba tabulek</h2>
-
-<p>Komplexní tabulka v HTML může být tvořena  záhlavím, tělem, a zápatím. Pomocí atributů <strong>colspan</strong> a <strong>rowspan</strong> 
-můžeme vytvořit sloučené buňky, které přesahují přes více sloupců i řádků.</p>
-
-<caption>Studijní obory na SŠPU Opava - školní rok 2016/17</caption>
+      <ol>
+        <li>Google Chrome</li>
+        <li>Internet Explorer</li>
+        <li>Mozila Firefox</li>
+      </ol>
 
 
+      <h3>NEUSPOŘÁDANÝ SEZNAM (UNORDERED LIST)</h3>
+
+      <ol>
+        <li>IP adresy (např. IPv4: 192.168.23.1, IPv6: )</li>
+        <li>DNS adresy (např. strojka.opava.cz)</li>
+        <li>URL adresy (např. https://www.w3schools.com/tags/tag_ol.asp)</li>
+      </ol>
+
+      <h3>VNOŘENÝ SEZNAM</h3>
+
+      <ul>
+        <li>Hardware</li>
+        <ol type="I">
+          <li>Základní jednotka</li>
+          <ol type="a">
+            <li>Procesor (CPU)</li>
+            <li>Pevný disk (HDD)</li>
+            <li>Operační paměť (RAM)</li>
+          </ol>
+          <li>Vstupní zařízení</li>
+          <ol type="a">
+            <li>Klávesnice</li>
+            <li>Myš</li>
+          </ol>
+          <li>Výstupní zařízení</li>
+          <ol type="a">
+            <li>Monitor</li>
+            <li>Tiskárna</li>
+          </ol>
+        </ol>
+        <li>Software</li>
+        <ol type="I">
+          <li>Základní programové vybavení</li>
+          <ol type="a">
+            <li>Operační systém</li>
+            <li>Ovladač</li>
+            <li>Firmware</li>
+          </ol>
+          <li>Aplikace</li>
+          <ol type="a">
+            <li>Textový editor</li>
+            <li>Prohlížeč</li>
+            <li>Antivirový program</li>
+          </ol>
+        </ol>
+      </ul>
+
+      <h3>POPISNÝ SEZNAM (DESCRIPTION LIST)</h3>
+      <dl>
+        <h4>
+          <dt>Internet Society (ISOC)</dt>
+        </h4>
+
+        <dd>Mezinárodní organizace pro globální koordinaci a kooperaci v rámci internetu.</dd>
+
+        <h4>
+          <dt>World Wide Web Consortium (W3C)</dt>
+        </h4>
+
+        <dd>Mezinárodní konsorcium, jehož členové společně s veřejností vyvíjejí webové standardy pro službu WWW.</dd>
+
+        <h4>
+          <dt>Internet Asigned Numbers Autority (IANA)</dt>
+        </h4>
+
+        <dd>Organizace, která dohlíží celosvětově na přidělování IP adres, správu kořenových zón DNS, definování typů
+          médií pro MIME a další náležitosti internetových protokolů.</dd>
+      </dl>
+
+      <h2>Tvorba tabulek</h2>
+
+      <p>Komplexní tabulka v HTML může být tvořena záhlavím, tělem, a zápatím. Pomocí atributů <strong>colspan</strong>
+        a <strong>rowspan</strong>
+        můžeme vytvořit sloučené buňky, které přesahují přes více sloupců i řádků.</p>
+
+      <caption>Studijní obory na SŠPU Opava - školní rok 2016/17</caption>
+
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Název oboru</th>
+            <th rowspan="2">Kód oboru</th>
+            <th rowspan="2">Počet tříd</th>
+            <th colspan="3">Počty žáků</th>
+          </tr>
+          <tr>
+            <th>Chlapci</th>
+            <th>Dívky</th>
+            <th>Celkem</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Informační technologie</th>
+            <th>18-20-M/01</th>
+            <th>4</th>
+            <th>104</th>
+            <th>1</th>
+            <th>105</th>
+          </tr>
+
+          <tr>
+            <th>Strojírenství</th>
+            <th>23-41-M/01</th>
+            <th>5</th>
+            <th>135</th>
+            <th>1</th>
+            <th>136</th>
+          </tr>
+
+          <tr>
+            <th>Umělecké obory</th>
+            <th>82-41-M/04, 82-41-M/04, 82-41-M/04</th>
+            <th>4</th>
+            <th>20</th>
+            <th>74</th>
+            <th>94</th>
+          </tr>
+
+        <tfoot>
+          <tr>
+            <th colspan="2">Celkové údaje</th>
+            <th>13 tříd</th>
+            <th colspan="3">335 žáků</th>
+          </tr>
+        </tfoot>
+
+
+
+        </tbody>
+
+
+
+
+
+
+      </table>
 
 
 
@@ -101,10 +171,10 @@ můžeme vytvořit sloučené buňky, které přesahují přes více sloupců i 
 
 
 
-</main>
+    </main>
 
-        <footer>Vytvořil Tomáš Franta©</footer>
-    </div>
+    <footer>Vytvořil Tomáš Franta©</footer>
+  </div>
 </body>
 
 </html>

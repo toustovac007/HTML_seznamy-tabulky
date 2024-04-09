@@ -7,7 +7,7 @@ body {
 
 
 #obal {
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -21,10 +21,17 @@ h1 {
 
 h2 {
     text-align: center;
-    background-color: red; 
+    background-color: rgb(139,11, 11); 
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h3 {
     color: blue;  
+}
+
+caption {
+    color: white;
+    background-color: gray;
 }

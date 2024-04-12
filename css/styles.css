@@ -37,6 +37,14 @@ h2 {
     border-radius: 10px;
 }
 
+h2::before {
+    content: "▶";
+    position: absolute;
+    left: 10px;
+    color: gray;
+    margin-left: 350px;
+    }
+
 h3 {
     color: blue;
 }

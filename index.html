@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="seznamy+tabulky" content="width=device-width, initial-scale=1.0">
   <title>seznamy+tabulky</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -25,14 +25,13 @@
         <li>Mozila Firefox</li>
       </ol>
 
-
       <h3>NEUSPOŘÁDANÝ SEZNAM (UNORDERED LIST)</h3>
 
-      <ol>
+      <ul>
         <li>IP adresy (např. IPv4: 192.168.23.1, IPv6: )</li>
         <li>DNS adresy (např. strojka.opava.cz)</li>
         <li>URL adresy (např. https://www.w3schools.com/tags/tag_ol.asp)</li>
-      </ol>
+      </ul>
 
       <h3>VNOŘENÝ SEZNAM</h3>
 
@@ -75,21 +74,15 @@
 
       <h3>POPISNÝ SEZNAM (DESCRIPTION LIST)</h3>
       <dl>
-        <h4>
-          <dt>Internet Society (ISOC)</dt>
-        </h4>
+        <dt>Internet Society (ISOC)</dt>
 
         <dd>Mezinárodní organizace pro globální koordinaci a kooperaci v rámci internetu.</dd>
 
-        <h4>
-          <dt>World Wide Web Consortium (W3C)</dt>
-        </h4>
+        <dt>World Wide Web Consortium (W3C)</dt>
 
         <dd>Mezinárodní konsorcium, jehož členové společně s veřejností vyvíjejí webové standardy pro službu WWW.</dd>
 
-        <h4>
-          <dt>Internet Asigned Numbers Autority (IANA)</dt>
-        </h4>
+        <dt>Internet Asigned Numbers Autority (IANA)</dt>
 
         <dd>Organizace, která dohlíží celosvětově na přidělování IP adres, správu kořenových zón DNS, definování typů
           médií pro MIME a další náležitosti internetových protokolů.</dd>
@@ -101,78 +94,60 @@
         a <strong>rowspan</strong>
         můžeme vytvořit sloučené buňky, které přesahují přes více sloupců i řádků.</p>
 
-      <caption>Studijní obory na SŠPU Opava - školní rok 2016/17</caption>
 
       <table>
+        <caption><i>Studijní obory na SŠPU Opava - školní rok 2016/17</i></caption>
         <thead>
           <tr>
             <th rowspan="2">Název oboru</th>
-            <th rowspan="2">Kód oboru</th>
-            <th rowspan="2">Počet tříd</th>
-            <th colspan="3">Počty žáků</th>
+            <th rowspan="2" class="d">Kód oboru</th>
+            <th rowspan="2" class="p">Počet tříd</th>
+            <th colspan="3" class="p">Počty žáků</th>
           </tr>
           <tr>
-            <th>Chlapci</th>
-            <th>Dívky</th>
-            <th>Celkem</th>
+            <th class="p">Chlapci</th>
+            <th class="p">Dívky</th>
+            <th class="p">Celkem</th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
-            <th>Informační technologie</th>
-            <th>18-20-M/01</th>
-            <th>4</th>
-            <th>104</th>
-            <th>1</th>
-            <th>105</th>
+            <th class="l">Informační technologie</th>
+            <th class="l">18-20-M/01</th>
+            <th class="r">4</th>
+            <th class="r">104</th>
+            <th class="r">1</th>
+            <th class="r">105</th>
           </tr>
 
           <tr>
-            <th>Strojírenství</th>
-            <th>23-41-M/01</th>
-            <th>5</th>
-            <th>135</th>
-            <th>1</th>
-            <th>136</th>
+            <th class="l">Strojírenství</th>
+            <th class="l">23-41-M/01</th>
+            <th class="r">5</th>
+            <th class="r">135</th>
+            <th class="r">1</th>
+            <th class="r">136</th>
           </tr>
 
           <tr>
-            <th>Umělecké obory</th>
-            <th>82-41-M/04, 82-41-M/04, 82-41-M/04</th>
-            <th>4</th>
-            <th>20</th>
-            <th>74</th>
-            <th>94</th>
+            <th class="l">Umělecké obory</th>
+            <th class="l">82-41-M/04, 82-41-M/04, 82-41-M/04</th>
+            <th class="r">4</th>
+            <th class="r">20</th>
+            <th class="r">74</th>
+            <th class="r">94</th>
           </tr>
-
+        </tbody>
         <tfoot>
           <tr>
-            <th colspan="2">Celkové údaje</th>
-            <th>13 tříd</th>
-            <th colspan="3">335 žáků</th>
+            <th colspan="2" class="tl">Celkové údaje</th>
+            <th class="cr">13 tříd</th>
+            <th colspan="3" class="cr">335 žáků</th>
           </tr>
         </tfoot>
-
-
-
-        </tbody>
-
-
-
-
-
-
       </table>
-
-
-
-
-
-
-
     </main>
-
     <footer>Vytvořil Tomáš Franta©</footer>
   </div>
 </body>
